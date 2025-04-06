@@ -1,0 +1,49 @@
+#chat{
+    
+    height: 1920px;
+    width: 1920px;
+}
+
+.gif-cat{
+    transition: 1s;
+    height: 640px;
+    width: 640px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0%;
+    
+}
+
+.gif-cat:hover{
+    background-image: url(https://c.tenor.com/GbutACtJBTMAAAAd/cat.gif);
+    opacity: 100%;
+}
+
+
+
+li:nth-child(2n){
+    background-color: rgb(43, 13, 175);  
+}
+
+li:nth-child(2n+1){
+    background-color: rgb(64, 102, 14);  
+}
+
+li:first-child{
+    background-color: aqua;  
+}
+
+li:last-child{
+    background-color: red;  
+}
+
+button{
+    transition: all 1s;
+}
+
+button:hover{
+    width: 999px;
+    height: 999px;
+    background-color: blueviolet;
+    
+}
